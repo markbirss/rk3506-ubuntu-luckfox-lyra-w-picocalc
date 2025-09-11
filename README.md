@@ -2,6 +2,17 @@
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/8aaf2d6b-baaa-4ef9-8d1e-3ec81b291f0e" />
 Ubuntu 24.04.3 LTS for Clockwork Picocalc
 
+(based off the Luckfox Lyra SDK when it could still build Ubuntu 22.04 OS Images but further modified to include updated Ubuntu 24.04.3 OS and support for the later Luckfox Lyra SBC boards with ability to run luckfox-config) 
+
+PicoCalc Feature | status |
+|:--|:--|
+| Keyboard | Yes |
+| Display | Yes | 
+| Serial Consle | Yes - baud @ 1500000|
+| ADB | Yes |
+| USB Networking | Yes |
+| BLE | Yes |
+| WiFi | Yes * see important note below to setup wifi modules|
 
 ```
 [build instructions]
