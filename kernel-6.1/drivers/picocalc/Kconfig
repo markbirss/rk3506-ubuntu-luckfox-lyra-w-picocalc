@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: GPL-2.0
+menu "PicoCalc"
+
+config PICOCALC_KBD
+	tristate "PicoCalc Keyboard Driver"
+	default m
+	help
+	  This driver supports the PicoCalc keyboard driver
+	  hiro <hiro@hiro.com>
+
+          To compile this driver as a module, choose M here: the
+          module will be called picocalc_kbd.
+
+config PICOCALC_SND_PWM
+	tristate "PicoCalc PWM Sound Driver"
+	default m
+	help
+	  This driver supports the PicoCalc pwm audio hardware
+	  Sascha Hauer <s.hauer@pengutronix.de>
+	  Modified for PicoCalc by hiro <hiro@hiro.com>
+
+          To compile this driver as a module, choose M here: the
+          module will be called picocalc_snd_pwm.
+
+config PICOCALC_SND_SOFTPWM
+	tristate "PicoCalc soft PWM Driver"
+	default m
+	help
+	  This driver supports the PicoCalc snd softpwm hardware
+	  Sascha Hauer <s.hauer@pengutronix.de>
+	  Modified for PicoCalc by hiro <hiro@hiro.com>
+
+          To compile this driver as a module, choose M here: the
+          module will be called picocalc_snd_softpwm.
+
+endmenu

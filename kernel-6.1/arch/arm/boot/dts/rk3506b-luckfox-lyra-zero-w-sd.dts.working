@@ -1,0 +1,64 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright (c) 2024 Rockchip Electronics Co., Ltd.
+ */
+
+/dts-v1/;
+
+#include "rk3506-luckfox-lyra.dtsi"
+
+/ {
+	model = "Luckfox Lyra Zero W";
+	compatible = "rockchip,rk3506g-demo-display-control", "rockchip,rk3506";
+
+	chosen {
+		bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=tty1 console=tty2 fbcon=font:VGA8x8 storagemedia=sd root=/dev/mmcblk0p3 rootfstype=ext4 rootwait snd_aloop.index=7 snd_aloop.use_raw_jiffies=1";
+	};
+
+	wireless_bluetooth: wireless-bluetooth {
+		compatible = "bluetooth-platdata";
+		BT,power_gpio = <&gpio1 RK_PC5 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+};
+
+/**********display**********/
+&cma {
+	size = <0x1000000>;
+};
+
+&dsi {
+	status = "disabled";
+};
+
+&dsi_dphy {
+	status = "disabled";
+};
+
+&dsi_in_vop {
+	status = "disabled";
+};
+
+&route_dsi {
+	status = "disabled";
+};
+
+/**********ethernet**********/
+&gmac1 {
+	status = "disabled";
+};
+
+&mdio1 {
+	status = "disabled";
+};
+
+/**********usb**********/
+&usb20_otg0 {
+	dr_mode = "peripheral";
+	status = "okay";
+};
+
+&usb20_otg1 {
+	dr_mode = "host";
+	status = "okay";
+};
