@@ -32,10 +32,10 @@ https://wiki.luckfox.com/Luckfox-Lyra/Login/
 [build instructions]
 git clone https://github.com/markbirss/rk3506-ubuntu-luckfox-lyra-w-picocalc.git
 
-cd rk3506-ubuntu-luckfox-lyra-w-picocalc/device/rockchip/.chips/rk3506
-ln -s .chips/rk3506 ../../rk3506
+#cd rk3506-ubuntu-luckfox-lyra-w-picocalc/device/rockchip/.chips/rk3506
+#ln -s .chips/rk3506 ../../rk3506
 #ln -s .chips/rk3506 ../../.chip
-cd ../../../../
+#cd ../../../../
 
 #sha256sum
 #d6f58545b0b9c679665a8ff58dd2a7a75aa2b2648871e4be5a2c2288b4261545  ubuntu_24.04.3.tar.gz
