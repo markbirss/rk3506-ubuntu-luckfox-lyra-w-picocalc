@@ -7,7 +7,7 @@ git clone https://github.com/markbirss/rk3506-ubuntu-luckfox-lyra-w-picocalc.git
 
 cd rk3506-ubuntu-luckfox-lyra-w-picocalc/device/rockchip/.chips/rk3506
 ln -s .chips/rk3506 ../../rk3506
-ln -s .chips/rk3506 ../../.chip
+#ln -s .chips/rk3506 ../../.chip
 cd ../../../../
 
 #sha256sum
