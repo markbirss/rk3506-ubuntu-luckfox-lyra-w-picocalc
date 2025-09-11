@@ -15,6 +15,19 @@ PicoCalc Feature | status |
 | WiFi | Yes * see important note below to setup wifi modules|
 | XFCE4 Desktop | Yes * see installation notes below|
 
+Serial Connectioin
+<img width="1672" height="985" alt="image" src="https://github.com/user-attachments/assets/ae392758-8ae8-4499-9e72-c5a48f10f45a" />
+
+```
+Connect Serial USB UART
+GND         - GND
+UART0_TX    - RxD
+UART0_RX    - TxD
+
+tio -b 1500000 /dev/ttyUSB0
+https://wiki.luckfox.com/Luckfox-Lyra/Login/
+```
+
 ```
 [build instructions]
 git clone https://github.com/markbirss/rk3506-ubuntu-luckfox-lyra-w-picocalc.git
@@ -104,6 +117,7 @@ Bus 001 Device 004: ID a69c:88dc AICSemi AIC8800DC
 
 XFCE4 Desktop Installation Notes
 ```
+dpkg-reconfigure tzdata
 timedatectl set-ntp off; timedatectl set-ntp on
 
 apt -y update; apt install -y --no-install-recommends xserver-xorg-input-all xserver-xorg-core xinit xfce4-terminal xserver-xorg-video-fbdev x11-utils;
@@ -115,3 +129,13 @@ systemctl set-default graphical.target;
 reboot
 
 ```
+
+4layer adapter board
+
+
+# **JLBPCB Gerber view (online)**
+https://jlcpcb.com/RGE
+
+Support my work and consider buying me a coffee
+
+https://buymeacoffee.com/mark.birss
