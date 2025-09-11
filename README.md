@@ -13,6 +13,7 @@ PicoCalc Feature | status |
 | USB Networking | Yes |
 | BLE | Yes |
 | WiFi | Yes * see important note below to setup wifi modules|
+| XFCE4 Desktop | Yes * see installation notes below|
 
 ```
 [build instructions]
