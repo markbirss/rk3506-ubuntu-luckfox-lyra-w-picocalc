@@ -1,6 +1,6 @@
 # rk3506-ubuntu-luckfox-lyra-w-picocalc
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/8aaf2d6b-baaa-4ef9-8d1e-3ec81b291f0e" />
-Ubuntu 24.04.3 LTS for Clockwork Picocalc
+Ubuntu 24.04.3 LTS for Clockwork Picocalc running with Luckfox Lyra Zero W Core
 
 (based off the Luckfox Lyra SDK when it could still build Ubuntu 22.04 OS Images but further modified to include updated Ubuntu 24.04.3 OS and support for the later Luckfox Lyra SBC boards with ability to run luckfox-config) 
 
