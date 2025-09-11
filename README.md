@@ -26,3 +26,46 @@ cd ../
 mkdir ubuntu
 mv ubuntu_24.04.3.tar.gz ubuntu
 ```
+
+luckfox_lyra_zero-w_ubuntu_sdmmc_defconfig
+```
+./build.sh lunch
+Log colors: message notice warning error fatal
+
+Log saved at /build/rk3506-ubuntu-luckfox-lyra-w-picocalc/output/sessions/2025-09-11_14-20-48
+Pick a defconfig:
+
+1. luckfox_lyra_pi-w_ubuntu_emmc_defconfig
+2. luckfox_lyra_pi-w_ubuntu_sdmmc_defconfig
+3. luckfox_lyra_plus_ubuntu_sdmmc_defconfig
+4. luckfox_lyra_ubuntu_sdmmc_defconfig
+5. luckfox_lyra_ultra-w_ubuntu_emmc_defconfig
+6. luckfox_lyra_zero-w_ubuntu_sdmmc_defconfig
+7. rk3506-armsom-forge1_ubuntu_sdmmc_defconfig
+Which would you like? [1]: 6
+
+sudo ./build.sh 
+```
+
+```
+Default User Login Credentials
+
+User:     root
+Password: root
+
+User:     lyra
+Password: luckfox
+
+ADB shell requires no password and can be used to set or change existing passwords
+```
+
+# IMPORTANT NOTE FOR LYRA BOARDS WITH WIFI
+```
+adb shell "cd /home/lyra/aic800/ && make install; reboot"
+
+#test
+adb shell nmcli dev wifi list
+
+#connect
+nmtui
+```
