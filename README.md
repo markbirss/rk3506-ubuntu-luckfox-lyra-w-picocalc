@@ -1,8 +1,9 @@
 # rk3506-ubuntu-luckfox-lyra-w-picocalc
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/8aaf2d6b-baaa-4ef9-8d1e-3ec81b291f0e" />
 Ubuntu 24.04.3 LTS for Clockwork Picocalc
-```
 
+
+```
 [build instructions]
 git clone https://github.com/markbirss/rk3506-ubuntu-luckfox-lyra-w-picocalc.git
 
