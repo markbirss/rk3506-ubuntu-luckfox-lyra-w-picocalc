@@ -131,6 +131,24 @@ reboot
 ```
 
 4layer adapter board
+<img width="1195" height="495" alt="image" src="https://github.com/user-attachments/assets/196d412f-cea0-4caf-8f48-739a9d16bc2f" />
+
+```
+Your require the PCB
+1 x femaile 40 pins raspberry pi type header
+2 x 20 pin male 2.54 header
+
+INSTRCUTIONS
+1. Solver the 40 pin female header to the PCB on opposite side of the inner sildscreen (see picutre below)
+2. Solder the 20 Pin male header onto the the opposite side as the femaile 40 pin header
+3. Isert the assembled board into the back of the Picocalc as pictured below (the #v3 and 5V on facing bottom display fpc connector)
+4. Insert the Luckfox Zero W facing down in the female 40 pin conenctor
+5. Insert the flashed sd card and boot
+
+```
+<img width="1195" height="495" alt="image" src="https://github.com/user-attachments/assets/dc31760e-c04b-49cb-af1d-1e7d2327ab54" />
+<img width="245" height="530" alt="image" src="https://github.com/user-attachments/assets/d3c19b99-5d4f-4d0d-8b9c-d7f4b3d4e8bb" />
+
 
 
 # **JLBPCB Gerber view (online)**
