@@ -101,3 +101,17 @@ Bus 001 Device 004: ID a69c:88dc AICSemi AIC8800DC
         |__ Port 001: Dev 004, If 2, Class=Vendor Specific Class, Driver=aic8800_fdrv, 480M
             ID a69c:88dc
 ```
+
+XFCE4 Desktop Installation Notes
+```
+timedatectl set-ntp off; timedatectl set-ntp on
+
+apt -y update; apt install -y --no-install-recommends xserver-xorg-input-all xserver-xorg-core xinit xfce4-terminal xserver-xorg-video-fbdev x11-utils;
+
+apt -y install xfce4 dbus-x11 mesa-utils xubuntu-default-settings xfce4-goodies lightdm-gtk-greeter lightdm-gtk-greeter-settings;
+
+rm /etc/systemd/system/default.target;
+systemctl set-default graphical.target;
+reboot
+
+```
