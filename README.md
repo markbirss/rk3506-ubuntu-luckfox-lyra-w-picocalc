@@ -134,6 +134,7 @@ reboot
 
 4layer adapter board
 <img width="1195" height="495" alt="image" src="https://github.com/user-attachments/assets/196d412f-cea0-4caf-8f48-739a9d16bc2f" />
+<img width="1848" height="4000" alt="image" src="https://github.com/user-attachments/assets/fc55bc8c-c5f6-4c1e-b92d-2f695b8aa3fd" />
 
 ```
 Your require the PCB
