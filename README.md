@@ -82,3 +82,21 @@ adb shell nmcli dev wifi list
 #connect
 nmtui
 ```
+
+```
+# lsusb
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 1a86:8091 QinHeng Electronics USB HUB
+Bus 001 Device 004: ID a69c:88dc AICSemi AIC8800DC
+# lsusb -tv
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=dwc2/1p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    |__ Port 001: Dev 002, If 0, Class=Hub, Driver=hub/4p, 480M
+        ID 1a86:8091 QinHeng Electronics 
+        |__ Port 001: Dev 004, If 0, Class=Wireless, Driver=btusb, 480M
+            ID a69c:88dc  
+        |__ Port 001: Dev 004, If 1, Class=Wireless, Driver=btusb, 480M
+            ID a69c:88dc  
+        |__ Port 001: Dev 004, If 2, Class=Vendor Specific Class, Driver=aic8800_fdrv, 480M
+            ID a69c:88dc
+```
