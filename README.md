@@ -160,6 +160,11 @@ Stand by sn0ren
 
 https://www.printables.com/model/1254039-picocalc-stand
 
+PicoCalc Display, Keybaord, SND drivers by hisptoot
+https://github.com/hisptoot/picocalc_luckfox_lyra/
+
+LuckFox Lyra SDK by Luckfox
+
 # **JLBPCB Gerber view (online)**
 https://jlcpcb.com/RGE
 
