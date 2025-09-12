@@ -152,7 +152,8 @@ INSTRCUTIONS
 <img width="1195" height="495" alt="image" src="https://github.com/user-attachments/assets/dc31760e-c04b-49cb-af1d-1e7d2327ab54" />
 <img width="1848" height="4000" alt="image" src="https://github.com/user-attachments/assets/fc55bc8c-c5f6-4c1e-b92d-2f695b8aa3fd" />
 
-
+Case pictured above Credit to n602
+https://www.thingiverse.com/thing:6998636#google_vignette
 
 # **JLBPCB Gerber view (online)**
 https://jlcpcb.com/RGE
