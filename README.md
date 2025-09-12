@@ -6,6 +6,7 @@ Ubuntu 24.04.3 LTS for Clockwork Picocalc running with Luckfox Lyra Zero W Core
 
 PicoCalc Feature | status |
 |:--|:--|
+| Device Tree | Yes - check out luckfox-config |
 | Keyboard | Yes |
 | Display | Yes | 
 | Serial Consle | Yes - baud @ 1500000|
@@ -14,6 +15,7 @@ PicoCalc Feature | status |
 | BLE | Yes |
 | WiFi | Yes * see important note below to setup wifi modules|
 | XFCE4 Desktop | Yes * see installation notes below|
+| SDCard Slot | todo |
 
 Serial Connectioin
 <img width="1672" height="985" alt="image" src="https://github.com/user-attachments/assets/ae392758-8ae8-4499-9e72-c5a48f10f45a" />
