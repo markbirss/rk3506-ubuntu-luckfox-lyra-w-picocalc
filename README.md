@@ -133,6 +133,11 @@ reboot
 ```
 
 4layer adapter board
+
+my design download here
+
+https://github.com/markbirss/rk3506-ubuntu-luckfox-lyra-w-picocalc/releases/tag/1.0
+
 <img width="1195" height="495" alt="image" src="https://github.com/user-attachments/assets/196d412f-cea0-4caf-8f48-739a9d16bc2f" />
 
 
