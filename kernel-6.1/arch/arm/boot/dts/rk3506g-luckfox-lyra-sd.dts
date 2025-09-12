@@ -12,29 +12,35 @@
 	compatible = "rockchip,rk3506g-demo-display-control", "rockchip,rk3506";
 
 	chosen {
-		bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=tty1 console=ttyFIQ0 storagemedia=sd root=/dev/mmcblk0p3 rootfstype=ext4 rootwait snd_aloop.index=7 snd_aloop.use_raw_jiffies=1";
+		bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=tty1 console=tty2 console=ttyFIQ0 fbcon=font:VGA8x8 storagemedia=sd root=/dev/mmcblk0p3 rootfstype=ext4 rootwait snd_aloop.index=7 snd_aloop.use_raw_jiffies=1";
+	};
+
+	wireless_bluetooth: wireless-bluetooth {
+		compatible = "bluetooth-platdata";
+		BT,power_gpio = <&gpio1 RK_PC5 GPIO_ACTIVE_HIGH>;
+		status = "okay";
 	};
 };
 
 /**********display**********/
 &cma {
-	size = <0x2000000>;
+	size = <0x1000000>;
 };
 
 &dsi {
-	status = "okay";
+	status = "disabled";
 };
 
 &dsi_dphy {
-	status = "okay";
+	status = "disabled";
 };
 
 &dsi_in_vop {
-	status = "okay";
+	status = "disabled";
 };
 
 &route_dsi {
-	status = "okay";
+	status = "disabled";
 };
 
 /**********ethernet**********/
