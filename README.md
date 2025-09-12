@@ -155,6 +155,11 @@ INSTRCUTIONS
 Case pictured above Credit to n602
 https://www.thingiverse.com/thing:6998636#google_vignette
 
+Stand by sn0ren
+@sn0ren_1842114
+
+https://www.printables.com/model/1254039-picocalc-stand
+
 # **JLBPCB Gerber view (online)**
 https://jlcpcb.com/RGE
 
