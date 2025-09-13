@@ -6,7 +6,7 @@ Ubuntu 24.04.3 LTS for Clockwork Picocalc running with Luckfox Lyra Zero W Core
 
 PicoCalc Feature | status |
 |:--|:--|
-| Device Tree | Yes - check out luckfox-config |
+| Device Tree | Yes - check out luckfox-config *not sure it working correctly ? |
 | Keyboard | Yes |
 | Display | Yes | 
 | Serial Consle | Yes - baud @ 1500000|
