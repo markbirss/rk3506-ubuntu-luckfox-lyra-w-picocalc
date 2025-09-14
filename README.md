@@ -175,6 +175,10 @@ LuckFox Lyra SDK by Luckfox
 # **JLBPCB Gerber view (online)**
 https://jlcpcb.com/RGE
 
+#IMPORTANT NOTE
+This SDK is provided for non commercial use only
+UBUNTU require official autorization for commerical use
+
 Support my work and consider buying me a coffee
 
 https://buymeacoffee.com/mark.birss
