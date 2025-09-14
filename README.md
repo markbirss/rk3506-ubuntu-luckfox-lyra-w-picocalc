@@ -181,6 +181,7 @@ This SDK is provided for non commercial use only
 UBUNTU require official autorization for commerical use
 
 This SDK is provided without any warranty
+Use at you own risk
 
 Support my work and consider buying me a coffee
 
