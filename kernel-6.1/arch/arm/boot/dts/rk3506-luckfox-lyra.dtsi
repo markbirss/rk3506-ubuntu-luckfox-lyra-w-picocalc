@@ -64,15 +64,6 @@
 		poll-interval = <100>;
 	};
 
-	fiq_debugger: fiq-debugger {
-		compatible = "rockchip,fiq-debugger";
-		rockchip,serial-id = <0>;
-		rockchip,wake-irq = <0>;
-		rockchip,irq-mode-enable = <1>;
-		rockchip,baudrate = <1500000>;	/* Only 115200 and 1500000 */
-		interrupts = <GIC_SPI 115 IRQ_TYPE_LEVEL_HIGH>;
-	};
-
 	leds: leds {
 		compatible = "gpio-leds";
 		work_led: work-led {
@@ -1205,6 +1196,7 @@
 	status = "okay";
 };
 
+
 &spi0 {
     status = "okay";
     pinctrl-names = "default";
@@ -1235,28 +1227,17 @@
 	};
 };
 
-/ {
-	compatible = "rockchip,rk3506";
-	
-	picocalc_snd {
-		status = "okay";
-		compatible = "fsl,picocalc-snd-pwm";
-		pinctrl-names = "default";
-		pinctrl-0 = <&snd_pins>;
-		leftpin = <&gpio4 RK_PB2 GPIO_ACTIVE_HIGH>;
-		pwm-names = "pwm-snd-left";
-            	pwms = <&pwm0_4ch_0 0 25000 0>;
-		/* rightpin = <&gpio4 RK_PB3 GPIO_ACTIVE_HIGH>; */
-	};
+&spi1 {
+    status = "okay";
+    pinctrl-names = "default";
+    pinctrl-0 = <&rm_io26_spi1_clk &rm_io12_spi1_mosi &rm_io13_spi1_miso &rm_io24_spi1_csn0>;
+    spidev@0 {
+        compatible = "rockchip,spidev";
+        spi-max-frequency = <24000000>;
+        reg = <0>;
+    };
 };
 
-&pwm0_4ch_0 {
-	pinctrl-names = "active";
-	pinctrl-0 = <&rm_io12_pwm0_ch0>;
-	status = "okay";
-        assigned-clocks = <&cru CLK_PWM0>;
-        assigned-clock-rates = <100000000>;
-};
 
 /**********pinctrl**********/
 &pinctrl {

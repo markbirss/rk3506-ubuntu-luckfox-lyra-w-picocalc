@@ -12,7 +12,7 @@
 	compatible = "rockchip,rk3506g-demo-display-control", "rockchip,rk3506";
 
 	chosen {
-		bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=tty1 console=tty2 console=ttyFIQ0 fbcon=font:VGA8x8 storagemedia=sd root=/dev/mmcblk0p3 rootfstype=ext4 rootwait snd_aloop.index=7 snd_aloop.use_raw_jiffies=1";
+		bootargs = "console=tty1 console=tty2 fbcon=font:VGA8x8 storagemedia=sd root=/dev/mmcblk0p3 rootfstype=ext4 rootwait snd_aloop.index=7 snd_aloop.use_raw_jiffies=1";
 	};
 
 	wireless_bluetooth: wireless-bluetooth {
