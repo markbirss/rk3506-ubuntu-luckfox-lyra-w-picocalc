@@ -149,9 +149,9 @@ Your require the PCB
 2 x 20 pin male 2.54 header
 
 INSTRCUTIONS
-1. Solver the 40 pin female header to the PCB on opposite side of the inner sildscreen (see picutre below)
+1. Solder the 40 pin female header to the PCB on opposite side of the inner sildscreen (see picutre below)
 2. Solder the 20 Pin male header onto the the opposite side as the femaile 40 pin header
-3. Isert the assembled board into the back of the Picocalc as pictured below (the #v3 and 5V on facing bottom display fpc connector)
+3. Insert the assembled board into the back of the Picocalc as pictured below (the #v3 and 5V on facing bottom display fpc connector)
 4. Insert the Luckfox Zero W facing down in the female 40 pin conenctor
 5. Insert the flashed sd card and boot
 
